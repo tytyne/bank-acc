@@ -41,30 +41,29 @@ $(document).ready(function() {
     $('#inf').click(function() {
         // alert("dfhutbj")
         var name1 = $("input#name").val();
-        $(".name1").text(name1);
+
         var lastname1 = $("input#lastname").val();
 
-        $(".lastname1").text(lastname1);
 
         var age1 = $("input#age").val();
-        $(".age1").text(age1);
+
 
         var city1 = $("input#city").val();
         $(".city1").text(city1);
 
 
         var telephone1 = $("input#telephone").val();
-        $(".telephone1").text(telephone1);
+
 
 
         var id1 = $("input#id").val();
-        $(".id1").text(id1);
+
 
         var initial1 = parseInt($("input#initial").val());
-        $(".initial1").text(initial1);
+
 
         var branch1 = $("input#branch").val();
-        $(".branch1").text(branch1);
+
 
 
 
@@ -81,7 +80,7 @@ $(document).ready(function() {
         info.flora(deposity)
 
 
-        alert("you have deposit money" + balance)
+        alert("you have deposit money :" + balance)
 
 
     })
@@ -90,7 +89,7 @@ $(document).ready(function() {
 
         var withdraw = parseInt($("input#chair").val());
         info.eddy(withdraw)
-        alert("sufficient amount" + balance)
+        alert("sufficient amount :" + balance)
 
 
 
@@ -102,9 +101,16 @@ $(document).ready(function() {
 
     $('#submit').click(function() {
 
-        $('.banq').text(info.name)
+        $(".name1").text(newAccount.name1);
 
+        $(".lastname1").text(newAccount.lastname1);
 
+        $(".age1").text(newAccount.age1);
+        $(".telephone1").text(newAccount.telephone1);
+        $(".id1").text(newAccount.id1);
+        $(".initial1").text(newAccount.initial1);
+
+        $(".branch1").text(newAccount.branch1);
 
     })
 
