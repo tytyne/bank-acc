@@ -1,0 +1,58 @@
+body {
+    background-image: url("bank.jpg");
+}
+
+
+/* Style the form */
+
+#bankForm {
+    background-color: rgba(59, 124, 33, 0.726);
+    margin: 100px auto;
+    padding: 40px;
+    width: 50%;
+    min-width: 300px;
+}
+
+
+/* Style the input fields */
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+#country {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+button {
+    background-color: #af4c4c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
